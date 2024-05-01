@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Alarm App</h2>
+        <div class="time" id="time">
+            00:00:00
+        </div>
+        <div class="input">
+            <div class="row">
+                <label for="alarmDate">Select Date: </label>
+                <input type="date" name="currDate" id="currDate">
+            </div>
+            <div class="row">
+                <label for="alarmTime">Select Time: </label>
+                <input type="time" name="currTime" id="currTime">
+            </div>
+        </div>
+        <button class="btn">Set Alarm</button>
+        <div class="alarms"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
